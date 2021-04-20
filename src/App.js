@@ -7,7 +7,7 @@ import About from './components/About'
 import Projects from './components/Projects'
 import MenuIcon from '@material-ui/icons/Menu';
 import CloseIcon from '@material-ui/icons/Close';
-
+import avatar from './assets/avatar.png'
 function App() {
   const [click, setClick] = useState(false);
   const [navbar, setNavbar] = useState(false);
@@ -34,13 +34,13 @@ function App() {
         </div>
         <div className="nav-right">
           <div className="user">
-            <img src="avatar.png" alt="" />
+            <img src={avatar} alt="" />
             <h3>Patience Koskey</h3>
-            <p>Web Developer</p>
+            <p>Full Stack Web Developer</p>
           </div>
           
          
-        <a href="https://drive.google.com/file/d/1HvRlX5rwhi6FKqwq-3q9K1tn7bK9zTTU/view?usp=sharing" target="_blank" rel="noreferrer"><div className="pro">
+        <a href="https://drive.google.com/file/d/1D9j6elGizHQkhqpOc12GYmnhVA6GZaZp/view?usp=sharing" target="_blank" rel="noreferrer"><div className="pro">
             <h2>View My Resume</h2>
             
           </div></a>
@@ -60,12 +60,12 @@ function App() {
       <section className={click ? 'glass move' : 'glass'}>
         <div className="dashboard">
           <div className="user">
-            <img src="avatar.png" alt="" />
+            <img src={avatar} alt="" />
             <h3>Patience Koskey</h3>
-            <p>Web Developer</p>
+            <p> Full Stack Web Developer</p>
           </div>
         <Sidebar/>
-        <a href="https://drive.google.com/file/d/1HvRlX5rwhi6FKqwq-3q9K1tn7bK9zTTU/view?usp=sharing" target="_blank" rel="noreferrer"><div className="pro">
+        <a href="https://drive.google.com/file/d/1P0MS8u9crsxduwIj_JAU4yMdpLRQu7UZ/view?usp=sharing" target="_blank" rel="noreferrer"><div className="pro">
             <h2>View My Resume</h2>
             
           </div></a>
